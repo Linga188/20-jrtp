@@ -5,7 +5,7 @@ import java.util.Base64.Decoder;
 import java.util.Base64.Encoder;
 
 public class SecurityService {
-	
+	int k=100;
 	public static String encodePassword(String txt) {
 		Encoder encoder = Base64.getEncoder();
 		return encoder.encodeToString(txt.getBytes());
