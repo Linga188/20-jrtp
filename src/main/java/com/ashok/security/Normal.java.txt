@@ -1,0 +1,2 @@
+sucess=developed
+failure=error accured
